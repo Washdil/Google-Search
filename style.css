@@ -1,0 +1,139 @@
+body {
+  background: #353535;
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+
+}
+
+.google-logo {
+  height: 92px;
+  width: 272px;
+  margin-bottom: 50px;
+}
+.search {
+  
+  height: 35px;
+  width:500px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 52px;
+  padding-right: 44px;
+}
+input[text] {
+  appearance: auto;
+  box-sizing: border-box;
+  padding: 1px 2px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  display: flex;
+  background: white;
+  height: 39px;
+  border-radius: 17px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 40px;
+
+}
+.search-logo {
+  height: 22px;
+  margin-top: 8px;
+  width: 24px;
+  background-color: white;
+  position: relative;
+  background: white;
+  margin-left: 10px
+  ;
+  border: #353535;
+  cursor: pointer;
+}
+
+.voice-search {
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.bookmark {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 550px;
+  height: 200px;
+  
+  column-gap: 10px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.bookmarks-logo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  transition: background-color 0.15s;
+  padding: 1px;
+  cursor: pointer;
+  
+  
+} 
+.bookmarks-logo:hover {
+  background-color:rgb(83, 77, 77); 
+}
+
+.bookmarks-logo img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  border-radius: 100%;
+  cursor: pointer
+  ;
+}
+
+.bookmarks-logo p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+} 
+.bookmarks-logo .dot {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  opacity: 0;
+  transition: backgroud-color , border-radius, opacity 0.15s;
+
+}
+
+.bookmarks-logo .dot:hover {
+  background-color:rgb(77, 74, 74) ;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  padding-left: 10px;
+  padding-bottom: 9px;
+  background: rgba(42, 42, 42, 1);
+  margin-top: 8px;
+
+  border-radius: 100%;
+}
